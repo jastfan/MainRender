@@ -11,3 +11,6 @@ mediapipe==0.10.14
 youtube-transcript-api==0.6.2
 google-genai==0.3.0
 gunicorn==22.0.0
+imageio-ffmpeg==0.5.1
+edge-tts==6.1.12
+gTTS==2.5.3
