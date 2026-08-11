@@ -172,6 +172,9 @@ def _base_ydl_opts():
         "quiet": True, "no_warnings": True, "noplaylist": True,
         "socket_timeout": 15, "retries": 2, "extractor_retries": 1,
         "geo_bypass": True,
+        'extractor_args': {
+            'youtube': {'player_client': ['android', 'web']}
+        },
     }
     if FFMPEG_PATH:
         opts["ffmpeg_location"] = str(FFMPEG_PATH)
