@@ -291,6 +291,9 @@ def _ydl_base_opts():
         'quiet': True, 'no_warnings': True, 'noplaylist': True,
         'socket_timeout': 15, 'retries': 2, 'extractor_retries': 1,
         'geo_bypass': True,
+      'extractor_args': {
+            'youtube': {'player_client': ['android', 'web']}
+        },
     }
     if COOKIES_FILE.exists():
         opts['cookiefile'] = str(COOKIES_FILE)
