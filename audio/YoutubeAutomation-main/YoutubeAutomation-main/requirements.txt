@@ -1,0 +1,4 @@
+Flask==3.0.2
+flask-cors==4.0.0
+yt-dlp>=2026.1.1
+imageio-ffmpeg==0.5.1
